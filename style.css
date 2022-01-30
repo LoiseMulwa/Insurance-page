@@ -174,6 +174,7 @@ background-color: #23A6F0;
     padding-top: 120px;
     padding-bottom: 100vh;
     background-size: cover;
+    padding-right: 100px;
      }
 .inda{
     text-align: center;
@@ -274,6 +275,7 @@ background-color: #23A6F0;
 }
 .container{
     display: flex;
+    justify-content: center;
     
 }
 /*Box 1*/
@@ -323,9 +325,10 @@ color: white;
     text-align: center;
     padding: 20px; 
     width: 250px;
-    height: 600px;  
+    height: 500px;
     border: 2px solid #23A6F0;
     background-color: #0b1634;
+    
      }
 
 .box2 h3{
@@ -458,6 +461,22 @@ color: white;
     margin-top: 50px;
     background-color: #e9eaeb;
     
+}
+
+/*for desktop */
+@media only screen and (min-width: 768px ){
+.col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
 }
 
 
